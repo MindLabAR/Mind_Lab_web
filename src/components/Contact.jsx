@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="max-w-[1240px] m-auto h-screen " id="contact">
+    <div className="max-w-[1240px] m-auto h-auto p-10 " id="contact">
       <h1 className="text-2xl  text-center text-[#33363B] p-4">
         If you want to join us
       </h1>
