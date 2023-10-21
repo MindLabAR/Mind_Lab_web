@@ -1,4 +1,3 @@
-
 const About2 = () => {
   return (
     <div className="" id="learnMore">
@@ -9,7 +8,7 @@ const About2 = () => {
               Why was Mind Lab created ?
             </h2>
           </div>
-          <div className="flex ">
+          <div className="flex">
             <div className="p-5">
               <p className="text-[#33363B] text-center">
               We started using it to create an opportunity to do science that led to experimental 

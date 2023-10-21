@@ -2,7 +2,7 @@ import img1 from "../assets/img1.png";
 
 const Team = () => {
   return (
-    <div className=" text-[#33363B] " id="team">
+    <div className=" text-[#33363B] p-10 " id="team">
       <div className=" ">
         <h2 className="text-3xl text-center ">
           <span className="text-[#0099CC]">Team </span>members

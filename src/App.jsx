@@ -6,7 +6,7 @@ import About2 from "./components/About2";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Team from "./components/Team";
-import ArTry from "./components/Artry";
+import Uxui from "./components/Uxui";
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
     <Navbar/>
     <Main/>
     <About/>
-    <ArTry/>
+    <Uxui/>
     <Team/>
     <About2/>
     <Contact/>
