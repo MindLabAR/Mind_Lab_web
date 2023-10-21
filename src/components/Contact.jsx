@@ -4,31 +4,29 @@ const Contact = () => {
       <h1 className="text-2xl  text-center text-[#33363B] p-4">
         If you want to join us
       </h1>
-      <form className="max-w-[600px] m-auto">
-        <div className="grid grid-cols-2 gap-2">
-          <input
-            className="border shadow-lg p-3"
-            type="text"
-            placeholder="Name"
-          />
-          <input
-            className="border shadow-lg p-3"
-            type="email"
-            placeholder="Email"
-          />
-        </div>
+      <form className="max-w-[700px] m-auto">
+      <input
+          className="border rounded-md shadow-lg p-3 w-full my-2"
+          type="text"
+          placeholder="Email"
+        />
+      <input
+          className="border rounded-md shadow-lg p-3 w-full my-2"
+          type="text"
+          placeholder="Name"
+        />
         <input
-          className="border shadow-lg p-3 w-full my-2"
+          className="border rounded-md shadow-lg p-3 w-full my-2"
           type="text"
           placeholder="Subject"
         />
         <textarea
-          className="border shadow-lg p-3 w-full"
+          className="border rounded-md shadow-lg p-3 w-full"
           cols="30"
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="border shadow-lg p-3 w-full mt-3   text-black bg-[#0099CC] ease-in duration-200  rounded-md  hover:bg-[#003366] hover:text-white">
+        <button className="border rounded-md shadow-lg p-3 w-full mt-3   text-black bg-[#0099CC] ease-in duration-200  rounded-md  hover:bg-[#003366] hover:text-white">
           Submit
         </button>
       </form>
