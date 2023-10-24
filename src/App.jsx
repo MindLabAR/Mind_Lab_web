@@ -8,16 +8,17 @@ import Contact from "./components/Contact";
 import Team from "./components/Team";
 import Uxui from "./components/Uxui";
 
-function App() {
 
+function App() {
   return (
     <>
     <Navbar/>
     <Main/>
     <About/>
     <Uxui/>
-    <Team/>
     <About2/>
+    <Team/>
+
     <Contact/>
     <Footer/>
     </>

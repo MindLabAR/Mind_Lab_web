@@ -24,7 +24,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300 "
     >
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-2 text-white">
+      <div className="max-w-[1366px] m-auto flex justify-between items-center p-2 text-white">
         <div className="flex">
           <h1 className="font-bold text-4xl text-[#0099CC]">Mind </h1>
           <a href="/">
