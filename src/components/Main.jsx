@@ -8,8 +8,7 @@ const Hero = () => {
         <div className="absolute top-0 left-0 right-0 bottom-0 " />
         <div className=" text-xl text-[#33363B] z-[2] mt-[-10rem]">
           <h2 className="text-6xl  font-bold leading-normal">
-            Augmented Reality <br />
-            Science Education
+            COMBINED <br /> AUGMENTED REALITY <br /> WITH SCIENCE
           </h2>
           <p className="py-5 text-xl">
             Mind Lab platform offers a new way of learning by combining

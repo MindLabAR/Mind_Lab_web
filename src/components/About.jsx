@@ -1,14 +1,14 @@
 const About = () => {
   return (
-    <div className="max-w-[1366px] m-auto" id="learnMore">
-      <div id="about">
+    <div className=" bg-[#FCFCFC]" id="learnMore">
+      <div className="max-w-[1366px] m-auto" id="about">
         <div>
           <h2 className=" text-3xl text-center  text-[#0099CC]">
             What is Augmented Reality technology ?
           </h2>
         </div>
         <div className="flex justify-center ">
-          <p className="text-[#33363B] text-center py-10">
+          <p className="text-[#33363B] text-center py-10  ">
             Augmented reality is an interactive experience that combines the
             real world and computer-generated content. The content can span
             multiple sensory modalities, including visual, auditory, haptic,
