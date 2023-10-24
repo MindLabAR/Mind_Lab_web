@@ -1,9 +1,9 @@
 const About2 = () => {
   return (
-    <div className="bg-[#FCFCFC] p-5" id="learnMore">
+    <div className="p-10" id="learnMore">
       <div className=" max-w-[1366px] m-auto " id="about">
         <div>
-          <h2 className=" text-3xl text-center  text-[#0099CC]">
+          <h2 className=" text-3xl text-center font-semibold text-[#0099CC]">
             Why was Mind Lab created ?
           </h2>
         </div>

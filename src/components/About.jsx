@@ -1,9 +1,9 @@
 const About = () => {
   return (
-    <div className=" bg-[#FCFCFC]" id="learnMore">
+    <div id="learnMore">
       <div className="max-w-[1366px] m-auto" id="about">
         <div>
-          <h2 className=" text-3xl text-center  text-[#0099CC]">
+          <h2 className=" text-3xl text-center font-semibold text-[#0099CC]">
             What is Augmented Reality technology ?
           </h2>
         </div>

@@ -7,15 +7,15 @@ const About = () => {
   return (
     <div className="bg-[#0099CC] text-[#f4f4f4]">
       <div className="p-10 max-w-[1366px] m-auto " id="learnMore">
-        <h2 className=" text-3xl text-center  ">Coming Soon...</h2>
+        <h2 className=" text-3xl text-center font-semibold ">Coming Soon...</h2>
         <div className="flex flex-col justify-evenly  md:flex-row m-5">
-          <div>
+          <div className="transform duration-150 cursor-pointer ease-in hover:scale-110">
             <img src={img1} alt="" className="mx-auto h-96 w-50 p-5 " />
           </div>
-          <div>
+          <div className="transform duration-150 cursor-pointer ease-in hover:scale-110">
             <img src={img2} alt="" className="mx-auto h-96 w-50 p-5" />
           </div>
-          <div>
+          <div className="transform duration-150 cursor-pointer ease-in hover:scale-110">
             <img src={img3} alt="" className="mx-auto h-96 w-50 p-5" />
           </div>
         </div>

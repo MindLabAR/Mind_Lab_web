@@ -5,10 +5,10 @@ import "../style/custom.css";
 
 const Team = () => {
   return (
-    <div className=" text-[#33363B] p-10 bg-[#FCFCFC]" id="team">
+    <div className=" text-[#33363B] p-10" id="team">
       <div className="max-w-[1366px] m-auto">
-        <h2 className="text-3xl text-center ">
-          <span className="text-[#0099CC]">Team </span>members
+        <h2 className="text-3xl text-center font-semibold ">
+          <span className="text-[#0099CC] font-semibold">Team </span>members
         </h2>
         <br />
         <br />
@@ -16,21 +16,21 @@ const Team = () => {
           <div className="text-center p-5 bg-[#ffffff] drop-shadow-md ease-in duration-200 cursor-pointer rounded-2xl hover:shadow-xl hover:scale-105">
             <img src={img1} className=" mx-auto w-60 h-60 rounded-2xl" />
             <div className="text-center py-5 ">
-              <span className="font-semibold">Developer</span>
+              <span className="font-semibold text-[#0099CC]">Developer</span>
               <p>Margad Erdene Kh</p>
             </div>
           </div>
           <div className="text-center p-5 bg-[#ffffff] drop-shadow-md ease-in duration-200 cursor-pointer rounded-2xl hover:shadow-xl hover:scale-105 ">
             <img src={img2} className="mx-auto w-60 h-60 rounded-2xl" />
             <div className="text-center py-5">
-              <span className="font-semibold">Developer</span>
+              <span className="font-semibold text-[#0099CC]">Developer</span>
               <p>Khulan E</p>
             </div>
           </div>
           <div className="text-center p-5 bg-[#ffffff] drop-shadow-md ease-in duration-200 cursor-pointer rounded-2xl hover:shadow-xl hover:scale-105  ">
             <img src={img3} className="mx-auto w-60 h-60 rounded-2xl" />
             <div className="text-center py-5">
-              <span className="font-semibold">Developer</span>
+              <span className="font-semibold text-[#0099CC]">Developer</span>
               <p>Usukhbayr G</p>
             </div>
           </div>
