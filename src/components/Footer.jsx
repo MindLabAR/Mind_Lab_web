@@ -15,9 +15,18 @@ const Footer = () => {
           </div>
 
           <div className="flex gap-6">
-            <AiFillLinkedin className="font-color cursor-pointer" size={40} />
-            <AiFillInstagram className="font-color cursor-pointer" size={40} />
-            <AiFillFacebook className="font-color cursor-pointer" size={40} />
+            <AiFillLinkedin
+              className="font-color cursor-pointer ease-in duration-200 hover:scale-125"
+              size={40}
+            />
+            <AiFillInstagram
+              className="font-color cursor-pointer ease-in duration-200 hover:scale-125"
+              size={40}
+            />
+            <AiFillFacebook
+              className="font-color cursor-pointer ease-in duration-200 hover:scale-125"
+              size={40}
+            />
           </div>
         </div>
       </div>

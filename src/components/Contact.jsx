@@ -7,27 +7,27 @@ const Contact = () => {
         </h1>
         <form className="max-w-[700px] m-auto">
           <input
-            className="border rounded-md border-[#006699]  shadow-lg p-3 w-full my-2"
+            className="border rounded-md border-[#f4f4f4]  shadow-lg p-3 w-full my-2"
             type="text"
             placeholder="Email"
           />
           <input
-            className="border rounded-md border-[#006699]  shadow-lg p-3 w-full my-2"
+            className="border rounded-md border-[#f4f4f4]  shadow-lg p-3 w-full my-2"
             type="text"
             placeholder="Name"
           />
           <input
-            className="border rounded-md border-[#006699] shadow-lg p-3 w-full my-2"
+            className="border rounded-md border-[#f4f4f4] shadow-lg p-3 w-full my-2"
             type="text"
             placeholder="Subject"
           />
           <textarea
-            className="border rounded-md border-[#006699] shadow-lg p-3 w-full"
+            className="border rounded-md border-[#f4f4f4] shadow-lg p-3 w-full"
             cols="30"
             rows="10"
             placeholder="Message"
           ></textarea>
-          <button className="border rounded-md shadow-lg p-3 w-full mt-3 text-white bg-[#006699] ease-in duration-200 ">
+          <button className="border rounded-md shadow-lg p-3 w-full mt-3 text-[#33363B] font-semibold  bg-[#0099CC] ease-in duration-200  hover:bg-[#003366] hover:text-white">
             Submit
           </button>
         </form>

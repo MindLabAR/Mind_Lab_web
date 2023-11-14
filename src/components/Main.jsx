@@ -1,27 +1,23 @@
 const Hero = () => {
   return (
     <div
-      className=" z-[2] bg-fixed bg-center bg-cover  bg-[url('./assets/bg.jpg')] "
+      className=" z-[2] bg-center bg-cover  bg-[url('./assets/BG.png')] "
       id="main"
     >
       <div className="max-w-[1366px]  m-auto flex  items-center justify-between h-screen mb-12 ">
-        <div className="absolute top-0 left-0 right-0 bottom-0 " />
+        <div className="absolute left-0 right-0 bottom-0 " />
         <div className=" text-xl text-[#33363B] z-[2] mt-[-10rem] m-5">
-          <h2 className="text-6xl  font-bold leading-normal">
+          <h2 className="text-4xl  font-bold md:leading-normal md:text-7xl">
             COMBINED <br /> AUGMENTED REALITY <br /> WITH SCIENCE
           </h2>
-          <p className="py-5 text-xl">
+          <p className="py-5 text-xl md:text-2xl  md:leading-normal">
             Mind Lab platform offers a new way of learning by combining
+            <br></br>
             education with augmented reality technology
           </p>
-          <button className="p-4  text-white bg-[#006699] ease-in duration-100  rounded-md ">
-            <a href="#">EnRoll Now</a>
-          </button>
         </div>
       </div>
-      {/* Overlay */}
     </div>
   );
 };
-
 export default Hero;

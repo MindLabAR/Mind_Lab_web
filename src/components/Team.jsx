@@ -12,22 +12,24 @@ const Team = () => {
         </h2>
         <br />
         <br />
-        <div className="flex flex-col md:flex-row justify-evenly">
-          <div className="text-center p-5 bg-[#ffffff] drop-shadow-md ease-in duration-200 cursor-pointer rounded-2xl hover:shadow-xl hover:scale-105">
+        <div className="flex flex-col md:flex-row justify-">
+          <div className="text-center m-auto p-5 bg-[#ffffff] drop-shadow-lg ease-in duration-200 rounded-3xl">
             <img src={img1} className=" mx-auto w-60 h-60 rounded-2xl" />
             <div className="text-center py-5 ">
               <span className="font-semibold text-[#0099CC]">Developer</span>
               <p>Margad Erdene Kh</p>
             </div>
           </div>
-          <div className="text-center p-5 bg-[#ffffff] drop-shadow-md ease-in duration-200 cursor-pointer rounded-2xl hover:shadow-xl hover:scale-105 ">
+          <br />
+          <div className="text-center m-auto p-5 bg-[#ffffff] drop-shadow-lg ease-in duration-200 rounded-3xl">
             <img src={img2} className="mx-auto w-60 h-60 rounded-2xl" />
             <div className="text-center py-5">
               <span className="font-semibold text-[#0099CC]">Developer</span>
               <p>Khulan E</p>
             </div>
           </div>
-          <div className="text-center p-5 bg-[#ffffff] drop-shadow-md ease-in duration-200 cursor-pointer rounded-2xl hover:shadow-xl hover:scale-105  ">
+          <br />
+          <div className="text-center m-auto p-5 bg-[#ffffff] drop-shadow-lg ease-in duration-200 rounded-3xl ">
             <img src={img3} className="mx-auto w-60 h-60 rounded-2xl" />
             <div className="text-center py-5">
               <span className="font-semibold text-[#0099CC]">Developer</span>

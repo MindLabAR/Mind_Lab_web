@@ -8,7 +8,7 @@ const About = () => {
           </h2>
         </div>
         <div className="flex justify-center ">
-          <p className="text-[#33363B] text-center py-10  ">
+          <p className="text-[#33363B] text-center p-10  ">
             Augmented reality is an interactive experience that combines the
             real world and computer-generated content. The content can span
             multiple sensory modalities, including visual, auditory, haptic,

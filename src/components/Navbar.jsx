@@ -25,26 +25,26 @@ const Navbar = () => {
     >
       <div className="max-w-[1366px] m-auto flex justify-between items-center p-2 text-white">
         <div className="flex">
-          <h1 className="font-bold text-4xl text-[#006699]">Mind </h1>
+          <h1 className="font-bold text-4xl text-[#0099CC]">Mind </h1>
           <a href="/">
             <h1 className="font-bold text-4xl text-[#33363B]"> Lab</h1>
           </a>
         </div>
 
         <ul className="hidden sm:flex">
-          <li className="p-4 text-[#33363B] ease-in duration-100 hover:text-[#0099CC]">
+          <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
             <a href="/#main">Home</a>
           </li>
-          <li className="p-4 text-[#33363B] ease-in duration-100 hover:text-[#0099CC]">
+          <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
             <a href="/#learnMore">Learn more</a>
           </li>
-          <li className="p-4 text-[#33363B] ease-in duration-100 hover:text-[#0099CC]">
+          <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
             <a href="/#team">Team</a>
           </li>
-          <li className="p-4 text-[#33363B] ease-in duration-100 hover:text-[#0099CC]">
+          <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
             <a href="/#contact">Contact</a>
           </li>
-          <button className="p-4  text-white bg-[#006699] ease-in duration-100  rounded-md  ">
+          <button className="p-4  text-[#33363B]  bg-[#0099CC] ease-in duration-200 rounded-md  hover:bg-[#003366] hover:text-white">
             <a href="#">EnRoll Now</a>
           </button>
         </ul>
