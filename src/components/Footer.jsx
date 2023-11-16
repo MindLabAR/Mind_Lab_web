@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="max-w-[1366px]  m-auto py-16">
         <div className="flex flex-col justify-between md:flex-row ">
           <div>
-            <p className=" ">© 2023 Mind Lab team. All Right Reserved</p>
+            <p className=" ">© 2023 Mind Lab. Зохиогчийн эрх хамгаалагдсан</p>
           </div>
 
           <div className="flex gap-6">

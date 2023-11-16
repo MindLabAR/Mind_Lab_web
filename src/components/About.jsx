@@ -1,27 +1,27 @@
 const About = () => {
   return (
     <div id="learnMore">
-      <div className="max-w-[1366px] m-auto" id="about">
+      <div className="max-w-[1366px] m-auto p-10 " id="about">
         <div>
           <h2 className=" text-3xl text-center font-semibold text-[#0099CC]">
-            What is Augmented Reality technology ?
+            Өргөтгөсөн бодит байдал гэж юу вэ ?
           </h2>
         </div>
+        <br />
         <div className="flex justify-center ">
-          <p className="text-[#33363B] text-center p-10  ">
-            Augmented reality is an interactive experience that combines the
-            real world and computer-generated content. The content can span
-            multiple sensory modalities, including visual, auditory, haptic,
-            somatosensory and olfactory. AR can be defined as a system that
-            incorporates three basic features: a combination of real and virtual
-            worlds, real-time interaction, and accurate 3D registration of
-            virtual and real objects. The overlaid sensory information can be
-            constructive, or destructive . This experience is seamlessly
-            interwoven with the physical world such that it is perceived as an
-            immersive aspect of the real environment . In this way, augmented
-            reality alters one ongoing perception of a real-world environment,
-            whereas virtual reality completely replaces the users real-world
-            environment with a simulated one.
+          <p className="text-[#33363B] text-center  ">
+            Өргөтгөсөн бодит байдал нь бодит ертөнц болон компьютерийн үүсгэсэн
+            контентыг хослуулсан интерактив туршлага юм. Агуулга нь харааны,
+            сонсголын, мэдрэгч, соматосенсори, үнэрлэх зэрэг олон мэдрэхүйн
+            хэлбэрийг хамарч болно. AR нь бодит болон виртуал ертөнц, бодит
+            цагийн харилцан үйлчлэл, виртуал болон бодит объектын 3 хэмжээст
+            үнэн зөв бүртгэл гэсэн гурван үндсэн шинж чанарыг агуулсан систем
+            гэж тодорхойлж болно. Давхардсан мэдрэхүйн мэдээлэл нь бүтээмжтэй
+            эсвэл хор хөнөөлтэй байж болно. Энэхүү туршлага нь физик ертөнцтэй
+            салшгүй холбоотой байдаг тул түүнийг бодит орчны шимтэх тал гэж
+            ойлгодог. Ийнхүү нэмэгдүүлсэн бодит байдал нь бодит ертөнцийн
+            талаарх байнгын ойлголтыг өөрчилдөг бол виртуал бодит байдал нь
+            хэрэглэгчдийн бодит орчныг дуурайлган орлуулдаг.
           </p>
         </div>
       </div>

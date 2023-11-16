@@ -2,7 +2,7 @@ const Timeline = () => {
   return (
     <div className="bg-[#0099CC] p-10 ">
       <h1 className="text-3xl text-center font-semibold text-[#ffffff]">
-        Our vision
+        Бидний алсын хараа
       </h1>
       <div className="m-10 flex justify-center items-center">
         <div className="max-w-[1366px] mx-auto w-full grid grid-cols-9 px-2">

@@ -1,4 +1,3 @@
-// import React from "react";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
@@ -8,12 +7,15 @@ import Contact from "./components/Contact";
 import Team from "./components/Team";
 import Uxui from "./components/Uxui";
 import TimeLine from "./components/Timeline";
+import Hero from "./components/Hero";
+// import AR from "./AR/CameraKit";
 function App() {
   return (
     <>
       <Navbar />
-      <Main />
+      <Hero />
       <About />
+      <Main />
       <Uxui />
       <About2 />
       <Team />

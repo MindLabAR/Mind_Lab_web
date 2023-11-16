@@ -4,15 +4,15 @@ const About2 = () => {
       <div className=" max-w-[1366px] m-auto " id="about">
         <div>
           <h2 className=" text-3xl text-center font-semibold text-[#0099CC]">
-            Why was Mind Lab created ?
+            Яагаад Mind Lab бүтэх болсон бэ ?
           </h2>
         </div>
         <div className="flex justify-center ">
           <p className="text-[#33363B] text-center py-10">
-            We started using it to create an opportunity to do science that led
-            to experimental results and cost. With the help of technology,
-            education will be opened up, especially for proving theories by
-            experimenting, seeing with your eyes, and moving with your hands.
+            Бид үүнийг удирдан чиглүүлсэн шинжлэх ухаан хийх боломжийг бий
+            болгохын тулд ашиглаж эхэлсэн туршилтын үр дүн, зардал. Технологийн
+            тусламжтайгаар, боловсрол, ялангуяа онолыг нотлоход нээлттэй болно
+            туршилт хийх, нүдээр харах, гараараа хөдөлгөх.
           </p>
         </div>
       </div>

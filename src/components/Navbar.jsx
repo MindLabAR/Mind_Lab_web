@@ -25,27 +25,24 @@ const Navbar = () => {
     >
       <div className="max-w-[1366px] m-auto flex justify-between items-center p-2 text-white">
         <div className="flex">
-          <h1 className="font-bold text-4xl text-[#0099CC]">Mind </h1>
-          <a href="/">
-            <h1 className="font-bold text-4xl text-[#33363B]"> Lab</h1>
-          </a>
+          <img src="/longlogo.png" className="h-12 w-56" alt="" />
         </div>
 
         <ul className="hidden sm:flex">
           <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
-            <a href="/#main">Home</a>
+            <a href="/#main">Эхлэл</a>
           </li>
           <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
-            <a href="/#learnMore">Learn more</a>
+            <a href="/#learnMore">Илүү ихийг</a>
           </li>
           <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
-            <a href="/#team">Team</a>
+            <a href="/#team">Бид</a>
           </li>
           <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
-            <a href="/#contact">Contact</a>
+            <a href="/#contact">Холбоо барих</a>
           </li>
           <button className="p-4  text-[#33363B]  bg-[#0099CC] ease-in duration-200 rounded-md  hover:bg-[#003366] hover:text-white">
-            <a href="#">EnRoll Now</a>
+            <a href="#">Урьдчилсан</a>
           </button>
         </ul>
         {/* Mobile Button */}
