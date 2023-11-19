@@ -1,6 +1,6 @@
 import img1 from "../assets/ar1img.png";
 import aricon from "../assets/aricon.png";
-import arsmallicon from "../assets/arsmallicon.png";
+import arsmallicon from "../assets/aricon2.png";
 import "../style/custom.css";
 const ARcontent = () => {
   return (
