@@ -20,9 +20,8 @@ const getGradientStop = (ratio) => {
     .reduce((a, v) => (a << 8) + v, 0)
     .toString(16)
     .padStart(6, "0");
-  console.log(" ungu is " + color);
+
   const newColor = [color.slice(0, 2), color.slice(2, 4), color.slice(4)];
-  console.log("new color is " + newColor);
   return `#${color}`;
 };
 

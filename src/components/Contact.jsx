@@ -27,7 +27,7 @@ const Contact = () => {
             rows="10"
             placeholder="Захиа"
           ></textarea>
-          <button className="border rounded-md shadow-lg p-3 w-full mt-3 text-[#33363B] font-semibold  bg-[#0099CC] ease-in duration-200  hover:bg-[#003366] hover:text-white">
+          <button className="border rounded-md shadow-lg p-3 w-full mt-3 text-[#f4f4f4] font-semibold  bg-[#0099CC] ease-in duration-200  hover:bg-[#003366]">
             Илгээх
           </button>
         </form>

@@ -28,26 +28,30 @@ const Navbar = () => {
           <img src="/longlogo.png" className="h-12 w-56" alt="" />
         </div>
 
-        <ul className="hidden sm:flex">
-          <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
+        <ul className="hidden text-lg sm:flex">
+          <li className="p-4 text-[#33363B]  ease-in duration-200 hover:text-[#0099CC]">
             <a href="/#main">Эхлэл</a>
           </li>
-          <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
+          <li className="p-4 text-[#33363B]  ease-in duration-200 hover:text-[#0099CC]">
             <a href="/#learnMore">Илүү ихийг</a>
           </li>
-          <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
+          <li className="p-4 text-[#33363B]  ease-in duration-200 hover:text-[#0099CC]">
             <a href="/#team">Бид</a>
           </li>
-          <li className="p-4 text-[#33363B] text-xl ease-in duration-200 hover:text-[#0099CC]">
+          <li className="p-4 text-[#33363B]  ease-in duration-200 hover:text-[#0099CC]">
             <a href="/#contact">Холбоо барих</a>
           </li>
-          <button className="p-4  text-[#33363B]  bg-[#0099CC] ease-in duration-200 rounded-md  hover:bg-[#003366] hover:text-white">
-            <a href="#">Урьдчилсан</a>
+          <button className="px-4   text-white  bg-[#0099CC] ease-in duration-200 rounded-lg  hover:bg-[#003366]">
+            <a href="/">Урьдчилсан</a>
           </button>
         </ul>
         {/* Mobile Button */}
         <div onClick={handleNav} className="block sm:hidden z-10">
-          {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+          {nav ? (
+            <AiOutlineClose size={30} />
+          ) : (
+            <AiOutlineMenu color="black" size={30} />
+          )}
         </div>
         {/* Mobile Menu */}
         <div
@@ -62,28 +66,28 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-2xl ease-in duration-150 hover:text-[#0099CC]"
             >
-              <a href="/">Home</a>
+              <a href="/">Эхлэл</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-2xl ease-in duration-150 hover:text-[#0099CC]"
             >
-              <a href="/">Learn more</a>
+              <a href="/">Илүү ихийг</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-2xl ease-in duration-150 hover:text-[#0099CC]"
             >
-              <a href="/#about">About</a>
+              <a href="/#about">Бид</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-2xl ease-in duration-150 hover:text-[#0099CC]"
             >
-              <a href="/team">Team</a>
+              <a href="/team">Холбоо барих</a>
             </li>
             <button className="p-4 text-[#33363B] bg-[#0099CC] ease-in duration-200  rounded-md  hover:bg-[#003366] hover:text-white">
-              <a href="/enroll">EnRoll Now</a>
+              <a href="/enroll">Урьдчилсан</a>
             </button>
           </ul>
         </div>
