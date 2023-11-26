@@ -14,9 +14,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <About />
-      <Uxui />
+      {/* <About /> */}
       <About2 />
+      <Uxui />
       <ARcontent />
       <TimeLine />
       <Team />

@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className=" h-full w-full ">
       <Canvas
-        camera={{ position: [-10, -10, 15] }}
+        camera={{ position: [0, 0, 14] }}
         className="bg-[#ffffff]"
         style={{ height: "100vh" }}
       >

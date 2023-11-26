@@ -23,7 +23,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300 "
     >
-      <div className="max-w-[1366px] m-auto flex justify-between items-center p-2 text-white">
+      <div className="max-w-[1866px] m-auto flex justify-between items-center p-2 text-white">
         <div className="flex">
           <img src="/longlogo.png" className="h-12 w-56" alt="" />
         </div>
