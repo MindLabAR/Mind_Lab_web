@@ -12,10 +12,10 @@ const Timeline = () => {
                 2023
               </h1>
               <p className="text-[#33363B] sm:text-sm text-xs text-center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                corporis consequuntur voluptate nulla iusto quam ut quasi, eaque
-                quas omnis vero totam ullam, reprehenderit ratione pariatur
-                accusamus suscipit odit nostrum?
+                Интеграцчлалыг нэмэгдүүлэх: Виртуал лаборатори, оюун ухааны
+                лаборатори, виртуал хиймэл оюун ухааны платформуудын хоорондын
+                уялдаа холбоог нэмэгдүүлэх хүсэл эрмэлзэл байж болно. Энэ нь
+                салбар хоорондын судалгаа, боловсролын хамтын ажиллагааг бүтээх
               </p>
             </div>
           </div>
@@ -36,10 +36,11 @@ const Timeline = () => {
                 2024
               </h1>
               <p className="text-[#33363B]sm:text-sm text-xs text-center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                corporis consequuntur voluptate nulla iusto quam ut quasi, eaque
-                quas omnis vero totam ullam, reprehenderit ratione pariatur
-                accusamus suscipit odit nostrum?
+                Ёс суртахууны талаар анхаарах зүйлс: Эдгээр технологи хөгжихийн
+                хэрээр ёс суртахууны асуудалд анхаарал хандуулах, виртуал
+                лаборатори, оюун ухааныг сайжруулах технологиудыг хариуцлагатай
+                ашиглах, түүнчлэн хиймэл оюун ухааныг хөгжүүлэх ёс зүйн
+                асуудлуудыг шийдвэрлэхэд ихээхэн анхаарал хандуулж болох.
               </p>
             </div>
           </div>
@@ -49,10 +50,10 @@ const Timeline = () => {
                 2025
               </h1>
               <p className="text-[#33363B] sm:text-sm text-xs text-center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                corporis consequuntur voluptate nulla iusto quam ut quasi, eaque
-                quas omnis vero totam ullam, reprehenderit ratione pariatur
-                accusamus suscipit odit nostrum?
+                Салбар хоорондын лаборатори: Виртуал лабораторид олон салбарыг
+                нэгтгэж, хэрэглэгчдэд сэдвүүдийн хоорондын холболтыг судлах
+                боломжийг олгож, шинжлэх ухааны үзэл баримтлалын талаар илүү
+                цогц ойлголтыг бий болгох.
               </p>
             </div>
           </div>

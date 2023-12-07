@@ -17,7 +17,7 @@ function App() {
       {/* <About /> */}
       <About2 />
       <Uxui />
-      <ARcontent />
+      {/* <ARcontent /> */}
       <TimeLine />
       <Team />
       <Contact />

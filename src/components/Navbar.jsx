@@ -13,7 +13,7 @@ const Navbar = () => {
       if (window.scrollY >= 90) {
         setColor("#ffffff");
       } else {
-        setColor("transparent");
+        setColor("#ffffff");
       }
     };
     window.addEventListener("scroll", changeColor);
